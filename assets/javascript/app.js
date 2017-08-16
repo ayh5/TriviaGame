@@ -121,6 +121,7 @@ More importantly, the callback is fired in the context of the current DOM elemen
         trivia.incorrectCounter++;
       }
     });
+    });
 
     this.result();
 };

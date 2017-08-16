@@ -1,0 +1,26 @@
+
+.center-align {
+	text-align: center;
+}
+html {
+	background: black;
+}
+body {
+	background-image:url(../images/nfl-football.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.container-fluid {
+	height: 775px;
+}
+
+#header {
+	color: white;
+	font-size: 85px;
+}
+
+#startButton {
+	color: red;
+	font-size: 50px;
+}

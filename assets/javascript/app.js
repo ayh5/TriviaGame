@@ -51,10 +51,9 @@ var trivia = {
 		$("#counter-number").html(trivia.counter);
 
 			if (trivia.counter === 0) {
-				console.log("Out of Time");
 				trivia.done();
 			}
-	}, //end countdown function
+		}, //end countdown function
 
 	start: function() {
     timer = setInterval(trivia.countdown, 1000);
@@ -123,3 +122,12 @@ More importantly, the callback is fired in the context of the current DOM elemen
       }
     });
 
+    this.result();
+};
+    result: function() {
+  
+        	results.append('<h2>Correct: ' + this.correctCounter + '</h2>');
+        	results.append('<h2>Incorrect: ' + this.incorrectCounter + '</h2>');
+        }
+ 
+};
